@@ -1,5 +1,6 @@
 import csv
 import io
+import json
 import uuid
 from datetime import datetime
 from pathlib import Path
@@ -12,7 +13,7 @@ class EPDx(EPD):
     @classmethod
     def from_dict(cls, table7_object: dict):
         epd = cls(
-            id=str(uuid.uuid4()),
+            id=convert_lcabyg_id(table7_object.get("Sorterings ID")),
             format_version="0.2.8",
             name=table7_object.get("Navn DK"),
             version="version 2 - 201222",
@@ -69,7 +70,12 @@ def parse_row(row: dict, out_path: Path):
         return
     epd = EPDx.from_dict(row)
 
-    (out_path / f"{epd.id}.json").write_text(epd.json())
+    (out_path / f"{epd.id}.json").write_text(epd.json(ensure_ascii=False, indent=2))
+
+
+def convert_lcabyg_id(bpst_id: str) -> str:
+    _map = json.loads(Path("lcabyg_tabel7_map.json").read_text())
+    return _map.get(bpst_id, str(uuid.uuid4()))
 
 
 def convert_unit(unit: str) -> Unit:
@@ -91,11 +97,11 @@ def convert_unit(unit: str) -> Unit:
 
 
 def convert_subtype(subtype: str) -> SubType:
-    map = {
+    _map = {
         "Generisk data": SubType.Generic,
         "Branche data": SubType.Industry,
     }
-    return map.get(subtype)
+    return _map.get(subtype)
 
 
 def convert_gwp(gwp: str, declared_factor: float) -> float | None:
