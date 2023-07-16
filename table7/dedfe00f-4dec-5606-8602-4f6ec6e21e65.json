@@ -17,7 +17,7 @@
   "format_version": "0.2.8",
   "fw": null,
   "gwp": {
-    "a1a3": -783129.0,
+    "a1a3": -783.129,
     "a4": null,
     "a5": null,
     "b1": null,
@@ -29,9 +29,9 @@
     "b7": null,
     "c1": null,
     "c2": null,
-    "c3": 985049.0,
+    "c3": 985.049,
     "c4": null,
-    "d": -260334.0
+    "d": -260.334
   },
   "hwd": null,
   "id": "dedfe00f-4dec-5606-8602-4f6ec6e21e65",

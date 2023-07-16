@@ -12,6 +12,7 @@ class EPDx(EPD):
 
     @classmethod
     def from_dict(cls, table7_object: dict):
+        declared_factor = float(table7_object.get("Deklareret faktor (FU)"))
         epd = cls(
             id=convert_lcabyg_id(table7_object.get("Sorterings ID")),
             format_version="0.2.8",
@@ -28,7 +29,7 @@ class EPDx(EPD):
             location="DK",
             conversions=[
                 {"to": Unit.KG,
-                 "value": float(table7_object.get("Masse faktor")) * float(table7_object.get("Deklareret faktor (FU)"))}
+                 "value": float(table7_object.get("Masse faktor")) * declared_factor}
             ],
             gwp={
                 "a1a3": convert_gwp(
@@ -46,12 +47,9 @@ class EPDx(EPD):
                 "b7": None,
                 "c1": None,
                 "c2": None,
-                "c3": convert_gwp(table7_object.get("Global Opvarmning, modul C3"),
-                                  float(table7_object.get("Deklareret faktor (FU)"))),
-                "c4": convert_gwp(table7_object.get("Global Opvarmning, modul C4"),
-                                  float(table7_object.get("Deklareret faktor (FU)"))),
-                "d": convert_gwp(table7_object.get("Global Opvarmning, modul D"),
-                                 float(table7_object.get("Deklareret faktor (FU)"))),
+                "c3": convert_gwp(table7_object.get("Global Opvarmning, modul C3"), declared_factor),
+                "c4": convert_gwp(table7_object.get("Global Opvarmning, modul C4"), declared_factor),
+                "d": convert_gwp(table7_object.get("Global Opvarmning, modul D"), declared_factor),
             },
             meta_fields={"data_source": table7_object.get("Url (link)")},
         )
@@ -92,7 +90,7 @@ def convert_unit(unit: str) -> Unit:
             return Unit.KG
         case "L":
             return Unit.L
-        case "*":
+        case _:
             return Unit.UNKNOWN
 
 
