@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 55.3,
@@ -37,6 +37,7 @@
   "id": "b286370a-bfd1-44d6-b862-4622d8affb31",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "TT-element/Ribbedæk, TTS90 med 16-22 STK. L12,5 liner, og 1-2,5 kg slap armering",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "https://www.epddanmark.dk/media/jylpjfbu/md-20018-da_rev2.pdf"
+  },
   "standard": "EN15804A1",
   "subtype": "Industry",
   "valid_until": "2025-12-22T00:00:00",

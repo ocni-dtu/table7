@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 1104.19,
@@ -37,6 +37,7 @@
   "id": "312f7995-ff8f-5f78-8705-a55a2f2af0a0",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "Gaskedel, kondenserende, 20-120 kW",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/38053775-45d9-4649-8299-ec8a5a60cbd9?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 12.979,
@@ -37,6 +37,7 @@
   "id": "2ba55bb2-dca3-5252-800f-35235bdb9f8b",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "Gulvvarmesystem inkl. isolering, Kobber (200 mm afstand)",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/5dad78e0-234c-49d0-93aa-a06c6efee60f?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

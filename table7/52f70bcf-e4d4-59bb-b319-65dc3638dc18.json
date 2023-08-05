@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 2.07,
@@ -37,6 +37,7 @@
   "id": "52f70bcf-e4d4-59bb-b319-65dc3638dc18",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "VVS-rør, PE-belagt kobberrør",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/52378794-74b6-40ae-a8a8-a259c55f0a9d?version=00.05.000"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

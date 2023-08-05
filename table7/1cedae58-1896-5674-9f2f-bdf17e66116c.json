@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": -5.272,
@@ -37,6 +37,7 @@
   "id": "1cedae58-1896-5674-9f2f-bdf17e66116c",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "Laminatgulv 8 mm",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "https://www.oekobaudat.de/OEKOBAU.DAT/datasetdetail/process.xhtml?uuid=8f764a39-2539-4510-8c0a-ab5d67fbb59b&stock=OBD_2020_II&lang=de"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

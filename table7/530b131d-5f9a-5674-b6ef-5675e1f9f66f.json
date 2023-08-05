@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 75.4,
@@ -37,6 +37,7 @@
   "id": "530b131d-5f9a-5674-b6ef-5675e1f9f66f",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "EPS isolering til lofter / gulve og kælderydervæg / terrændæk 035",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/ee10b277-07b5-4c0a-8a48-e0412a9630ff?version=00.07.000"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

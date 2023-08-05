@@ -2,7 +2,7 @@
   "adpe": null,
   "adpf": null,
   "ap": null,
-  "comment": "#G0731",
+  "comment": "#G0810",
   "conversions": [
     {
       "to": "KG",
@@ -14,10 +14,10 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
-    "a1a3": 0.11688,
+    "a1a3": null,
     "a4": null,
     "a5": null,
     "b1": null,
@@ -29,16 +29,17 @@
     "b7": null,
     "c1": null,
     "c2": null,
-    "c3": 0.0,
-    "c4": 0.0793276,
-    "d": null
+    "c3": 1.80183,
+    "c4": null,
+    "d": -0.523199
   },
   "hwd": null,
-  "id": "0fd74c6d-8b86-40f9-8174-1ae8a2243f48",
+  "id": "432ccb76-1057-4f2f-ae69-5ccb3421eebd",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
-  "name": "Støbeasfalt",
+  "name": "Træprodukter, affaldsforbrænding",
   "nhwd": null,
   "nrsf": null,
   "odp": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/44e4bf51-8e23-47e3-8f5e-5243525bb32e?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

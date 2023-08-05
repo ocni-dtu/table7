@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 0.0332595,
@@ -37,6 +37,7 @@
   "id": "a85fb518-b2ff-5c16-abd1-b18b4296aaf3",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "Sand 0-2 mm, tørret",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/c1b237e1-2206-4318-8d99-f023b8aeb5d6?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

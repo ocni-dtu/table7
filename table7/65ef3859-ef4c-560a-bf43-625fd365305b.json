@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 0.558289,
@@ -37,6 +37,7 @@
   "id": "65ef3859-ef4c-560a-bf43-625fd365305b",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "Perlite 0-3 mm",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/44c57da1-24ce-488d-b4f9-283fa603cc9d?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

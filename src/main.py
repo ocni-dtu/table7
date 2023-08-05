@@ -1,30 +1,36 @@
 import csv
+import importlib.metadata
 import io
 import json
 import uuid
 from datetime import datetime
 from pathlib import Path
 
-from epdx.pydantic import EPD, Standard, SubType, Unit
+from epdx.pydantic import EPD, Standard, SubType, Unit, Source
 
 
 class EPDx(EPD):
 
     @classmethod
     def from_dict(cls, table7_object: dict):
+        """Convert a row from the table 7 csv to an EPDx object"""
+
         declared_factor = float(table7_object.get("Deklareret faktor (FU)"))
+        declared_unit = table7_object.get("Deklareret enhed (FU)")
+        table7_id = table7_object.get("Sorterings ID")
+
         epd = cls(
-            id=convert_lcabyg_id(table7_object.get("Sorterings ID")),
-            format_version="0.2.8",
+            id=convert_lcabyg_id(table7_id),
+            format_version=importlib.metadata.version("epdx"),
             name=table7_object.get("Navn DK"),
             version="version 2 - 201222",
-            declared_unit=convert_unit(table7_object.get("Deklareret enhed (FU)")),
+            declared_unit=convert_unit(declared_unit),
             valid_until=datetime(year=2025, month=12, day=22),
             published_date=datetime(year=2020, month=12, day=22),
-            source="BR18 - Tabel 7",
+            source=Source(name="BR18 - Tabel 7", url=table7_object.get("Url (link)")),
             standard=Standard.EN15804A1,
             subtype=convert_subtype(table7_object.get("Data type")),
-            comment=table7_object.get("Sorterings ID"),
+            comment=table7_id,
             reference_service_life=None,
             location="DK",
             conversions=[
@@ -34,7 +40,7 @@ class EPDx(EPD):
             gwp={
                 "a1a3": convert_gwp(
                     table7_object.get("Global Opvarmning, modul A1-A3"),
-                    float(table7_object.get("Deklareret faktor (FU)"))
+                    declared_factor
                 ),
                 "a4": None,
                 "a5": None,
@@ -51,7 +57,6 @@ class EPDx(EPD):
                 "c4": convert_gwp(table7_object.get("Global Opvarmning, modul C4"), declared_factor),
                 "d": convert_gwp(table7_object.get("Global Opvarmning, modul D"), declared_factor),
             },
-            meta_fields={"data_source": table7_object.get("Url (link)")},
         )
         return epd
 

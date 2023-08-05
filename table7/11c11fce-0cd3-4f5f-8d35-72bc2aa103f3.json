@@ -2,7 +2,7 @@
   "adpe": null,
   "adpf": null,
   "ap": null,
-  "comment": "#G0789",
+  "comment": "#G0500",
   "conversions": [
     {
       "to": "KG",
@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": null,
@@ -29,16 +29,17 @@
     "b7": null,
     "c1": null,
     "c2": null,
-    "c3": 0.002663,
-    "c4": null,
-    "d": null
+    "c3": null,
+    "c4": 0.00068207,
+    "d": -8.26778
   },
   "hwd": null,
-  "id": "44ce2e6f-409f-4e36-b23c-16f1b68bfeb3",
+  "id": "11c11fce-0cd3-4f5f-8d35-72bc2aa103f3",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
-  "name": "Oparbejdning af byggeaffald",
+  "name": "Aluminium, plade og profil, Genanvendelse",
   "nhwd": null,
   "nrsf": null,
   "odp": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/93eb05bd-e607-46de-8d7b-e0727f8d2400?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

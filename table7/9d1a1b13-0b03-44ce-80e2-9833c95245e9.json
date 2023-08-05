@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 429.0,
@@ -37,6 +37,7 @@
   "id": "9d1a1b13-0b03-44ce-80e2-9833c95245e9",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "Fabriksbeton C40/50 – CEM I",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "https://www.epddanmark.dk/media/oz1jfz20/md-20014-da_rev1-dansk-beton-fabriksbetonforeningen.pdf"
+  },
   "standard": "EN15804A1",
   "subtype": "Industry",
   "valid_until": "2025-12-22T00:00:00",

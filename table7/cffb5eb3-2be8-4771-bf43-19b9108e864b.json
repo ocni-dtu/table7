@@ -2,19 +2,19 @@
   "adpe": null,
   "adpf": null,
   "ap": null,
-  "comment": "#G2003",
+  "comment": "#G1054",
   "conversions": [
     {
       "to": "KG",
-      "value": 96.0
+      "value": 1.0
     }
   ],
   "cru": null,
-  "declared_unit": "M3",
+  "declared_unit": "KG",
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": null,
@@ -29,16 +29,17 @@
     "b7": null,
     "c1": null,
     "c2": null,
-    "c3": null,
-    "c4": 1.52,
-    "d": -3.36
+    "c3": 2.52745,
+    "c4": null,
+    "d": -1.40543
   },
   "hwd": null,
-  "id": "30a7fd19-7204-476b-8e84-e82b1079fee6",
+  "id": "cffb5eb3-2be8-4771-bf43-19b9108e864b",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
-  "name": "Affald, stenuld middel densitet",
+  "name": "Affald (forbrænding), kunststof, fjernvarme",
   "nhwd": null,
   "nrsf": null,
   "odp": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/0532424f-838f-4411-b8cc-0e29ad16d64b?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

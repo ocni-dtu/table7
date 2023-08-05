@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 241.0,
@@ -37,6 +37,7 @@
   "id": "d1a78805-f2b1-4131-8f1d-08845be37654",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "https://www.epddanmark.dk/media/qoelm3vd/md-20011-da_rev1-dansk-beton-fabriksbetonforeningen.pdf"
+  },
   "standard": "EN15804A1",
   "subtype": "Industry",
   "valid_until": "2025-12-22T00:00:00",

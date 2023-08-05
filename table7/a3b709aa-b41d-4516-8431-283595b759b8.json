@@ -2,22 +2,22 @@
   "adpe": null,
   "adpf": null,
   "ap": null,
-  "comment": "#G2000",
+  "comment": "#G0849",
   "conversions": [
     {
       "to": "KG",
-      "value": 1.0
+      "value": 6.24
     }
   ],
   "cru": null,
-  "declared_unit": "KG",
+  "declared_unit": "M2",
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
-    "a1a3": null,
+    "a1a3": 23.4651,
     "a4": null,
     "a5": null,
     "b1": null,
@@ -29,16 +29,17 @@
     "b7": null,
     "c1": null,
     "c2": null,
-    "c3": null,
-    "c4": 0.0136414,
-    "d": null
+    "c3": 12.0519,
+    "c4": null,
+    "d": -10.0487
   },
   "hwd": null,
-  "id": "b5efb0ed-5a21-4dd4-9e3f-3b7cb60cc995",
+  "id": "a3b709aa-b41d-4516-8431-283595b759b8",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
-  "name": "Affald, byggeaffald, deponering (ikke glas)",
+  "name": "Rulleskodder, PVC",
   "nhwd": null,
   "nrsf": null,
   "odp": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/3ce53be7-a3e5-4757-b7f9-68a6ecf66eb9?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

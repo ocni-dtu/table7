@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 63.0,
@@ -37,6 +37,7 @@
   "id": "cd3390d3-e4fa-43cd-bb28-213d7d035e81",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "Letbeton vægelement, 220 mm tyk væg, 10% udsparinger",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "https://www.epddanmark.dk/media/niyexcvm/md-20016-da_rev1-betonelement-foreningen.pdf"
+  },
   "standard": "EN15804A1",
   "subtype": "Industry",
   "valid_until": "2025-12-22T00:00:00",

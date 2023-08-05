@@ -2,7 +2,7 @@
   "adpe": null,
   "adpf": null,
   "ap": null,
-  "comment": "#G0138",
+  "comment": "#G2007",
   "conversions": [
     {
       "to": "KG",
@@ -14,10 +14,10 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
-    "a1a3": 0.103165,
+    "a1a3": null,
     "a4": null,
     "a5": null,
     "b1": null,
@@ -29,16 +29,17 @@
     "b7": null,
     "c1": null,
     "c2": null,
-    "c3": null,
-    "c4": 0.0150055,
-    "d": null
+    "c3": 0.00136414,
+    "c4": null,
+    "d": -1.14005
   },
   "hwd": null,
-  "id": "acedb4ee-e9be-41a8-95eb-c0e347558dfd",
+  "id": "f529aba0-4953-49c7-9ea5-ce79a4aba48b",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
-  "name": "Gips, beta-halvhydrat",
+  "name": "Kobberrør (blank)",
   "nhwd": null,
   "nrsf": null,
   "odp": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/55e5f6b9-224f-4938-8ae7-5495fade6f19?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

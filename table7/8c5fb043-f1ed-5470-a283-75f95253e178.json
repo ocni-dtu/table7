@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 1997.42,
@@ -37,6 +37,7 @@
   "id": "8c5fb043-f1ed-5470-a283-75f95253e178",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "El-varmepumpe (lodret jordvarme, saltvand) 20 kW",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/2af8a919-15c5-4709-bc6c-276d1e0951d5?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

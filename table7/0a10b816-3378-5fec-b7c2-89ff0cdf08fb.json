@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 0.895329,
@@ -37,6 +37,7 @@
   "id": "0a10b816-3378-5fec-b7c2-89ff0cdf08fb",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "CR-profil til forsegling (chloropren gummi)",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/208395ce-85db-4ec3-ab24-8e5920f58077?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

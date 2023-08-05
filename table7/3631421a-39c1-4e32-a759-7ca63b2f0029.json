@@ -2,19 +2,19 @@
   "adpe": null,
   "adpf": null,
   "ap": null,
-  "comment": "#G0763",
+  "comment": "#G2003",
   "conversions": [
     {
       "to": "KG",
-      "value": 1.0
+      "value": 96.0
     }
   ],
   "cru": null,
-  "declared_unit": "KG",
+  "declared_unit": "M3",
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": null,
@@ -30,15 +30,16 @@
     "c1": null,
     "c2": null,
     "c3": null,
-    "c4": 0.00068207,
-    "d": -2.66377
+    "c4": 1.52,
+    "d": -3.36
   },
   "hwd": null,
-  "id": "209c5a0a-54f5-4cd1-a82c-89f9ff028dc5",
+  "id": "3631421a-39c1-4e32-a759-7ca63b2f0029",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
-  "name": "Rustfri stål, genanvendelse",
+  "name": "Affald, stenuld middel densitet",
   "nhwd": null,
   "nrsf": null,
   "odp": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/eca9691f-06d7-48a7-94a9-ea808e2d67e8?version=00.06.000"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

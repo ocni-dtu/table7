@@ -2,7 +2,7 @@
   "adpe": null,
   "adpf": null,
   "ap": null,
-  "comment": "#G0765",
+  "comment": "#G1298",
   "conversions": [
     {
       "to": "KG",
@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": null,
@@ -29,16 +29,17 @@
     "b7": null,
     "c1": null,
     "c2": null,
-    "c3": 1.82315,
+    "c3": 0.0,
     "c4": null,
-    "d": -0.685639
+    "d": null
   },
   "hwd": null,
-  "id": "1a87574b-52ad-48b3-8bf4-816b2fc3c3b7",
+  "id": "64e1f0af-0230-4f02-b911-e10ae4534214",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
-  "name": "Affald, træ, forbrænding fjernvarme",
+  "name": "Tom affaldsproces",
   "nhwd": null,
   "nrsf": null,
   "odp": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": ""
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

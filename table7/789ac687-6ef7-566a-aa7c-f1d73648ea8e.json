@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 14.8,
@@ -37,6 +37,7 @@
   "id": "789ac687-6ef7-566a-aa7c-f1d73648ea8e",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "PU skumplade (12cm)",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/880e05ea-55c6-4346-a3ea-5af0e5f299e2?version=00.03.000"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

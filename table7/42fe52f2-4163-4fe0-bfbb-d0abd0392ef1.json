@@ -2,22 +2,22 @@
   "adpe": null,
   "adpf": null,
   "ap": null,
-  "comment": "#G2002",
+  "comment": "#G0138",
   "conversions": [
     {
       "to": "KG",
-      "value": 39.0
+      "value": 1.0
     }
   ],
   "cru": null,
-  "declared_unit": "M3",
+  "declared_unit": "KG",
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
-    "a1a3": null,
+    "a1a3": 0.103165,
     "a4": null,
     "a5": null,
     "b1": null,
@@ -30,15 +30,16 @@
     "c1": null,
     "c2": null,
     "c3": null,
-    "c4": 0.62,
-    "d": -1.36
+    "c4": 0.0150055,
+    "d": null
   },
   "hwd": null,
-  "id": "a940b942-026c-4412-b8dd-6a93fd705f1c",
+  "id": "42fe52f2-4163-4fe0-bfbb-d0abd0392ef1",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
-  "name": "Affald, stenuld lav densitet",
+  "name": "Gips, beta-halvhydrat",
   "nhwd": null,
   "nrsf": null,
   "odp": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/ee840270-3055-428a-b38d-e7727426cc35?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 9.8439,
@@ -37,6 +37,7 @@
   "id": "840b7da7-4268-50af-8408-3c03e10b4a4e",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "ETICS limning og mineralsk puds (Kratzputz)",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/e5cd5727-a516-4081-8fdf-4fc0ce142d90?version=20.20.020"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

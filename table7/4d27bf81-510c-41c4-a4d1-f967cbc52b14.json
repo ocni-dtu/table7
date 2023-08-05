@@ -2,22 +2,22 @@
   "adpe": null,
   "adpf": null,
   "ap": null,
-  "comment": "#G2004",
+  "comment": "#B1425",
   "conversions": [
     {
       "to": "KG",
-      "value": 1.0
+      "value": 2212.0
     }
   ],
   "cru": null,
-  "declared_unit": "KG",
+  "declared_unit": "M3",
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
-    "a1a3": null,
+    "a1a3": 215.0,
     "a4": null,
     "a5": null,
     "b1": null,
@@ -29,16 +29,17 @@
     "b7": null,
     "c1": null,
     "c2": null,
-    "c3": 1.73941,
-    "c4": null,
-    "d": -0.826165
+    "c3": 6.94,
+    "c4": 5.13,
+    "d": -4.74
   },
   "hwd": null,
-  "id": "f21bff2c-add4-456d-b7f5-7caee8ed39ba",
+  "id": "4d27bf81-510c-41c4-a4d1-f967cbc52b14",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
-  "name": "Affald (forbrænding), tekstil, fjernvarme",
+  "name": "Fabriksbeton (C20/25 SCC) i eksponeringsklasserne X0 og XC1",
   "nhwd": null,
   "nrsf": null,
   "odp": null,
@@ -54,9 +55,12 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "https://www.epddanmark.dk/media/qoelm3vd/md-20011-da_rev1-dansk-beton-fabriksbetonforeningen.pdf"
+  },
   "standard": "EN15804A1",
-  "subtype": "Generic",
+  "subtype": "Industry",
   "valid_until": "2025-12-22T00:00:00",
   "version": "version 2 - 201222"
 }

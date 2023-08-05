@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 194.0,
@@ -37,6 +37,7 @@
   "id": "00c54d8d-c779-4146-815e-fb7f6cc6344b",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "Letklinkerblok, Massiv",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "https://www.epddanmark.dk/media/n5xnbcl5/md-20023-da_rev1-dansk-beton-blokforeningen.pdf"
+  },
   "standard": "EN15804A1",
   "subtype": "Industry",
   "valid_until": "2025-12-22T00:00:00",

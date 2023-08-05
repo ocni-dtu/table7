@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": -652.0,
@@ -37,6 +37,7 @@
   "id": "7e83ccc6-fec2-47d9-85ef-cde3fb4af25f",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "Konstruktionstræ af nåletræ, Høvlet (Forbrænding EoL)",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "https://www.epddanmark.dk/media/4p1frhby/md-20003-en-tr%c3%a6-dk-c-o-tr%c3%a6-og-m%c3%b8belindustrien.pdf"
+  },
   "standard": "EN15804A1",
   "subtype": "Industry",
   "valid_until": "2025-12-22T00:00:00",

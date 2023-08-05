@@ -2,22 +2,22 @@
   "adpe": null,
   "adpf": null,
   "ap": null,
-  "comment": "#B1425",
+  "comment": "#G2000",
   "conversions": [
     {
       "to": "KG",
-      "value": 2212.0
+      "value": 1.0
     }
   ],
   "cru": null,
-  "declared_unit": "M3",
+  "declared_unit": "KG",
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
-    "a1a3": 215.0,
+    "a1a3": null,
     "a4": null,
     "a5": null,
     "b1": null,
@@ -29,16 +29,17 @@
     "b7": null,
     "c1": null,
     "c2": null,
-    "c3": 6.94,
-    "c4": 5.13,
-    "d": -4.74
+    "c3": null,
+    "c4": 0.0136414,
+    "d": null
   },
   "hwd": null,
-  "id": "09f2a2ec-0fb1-472c-82dc-f9efc6466360",
+  "id": "7b6b5be6-ab6b-4d0c-b8ae-a5af4c700e38",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
-  "name": "Fabriksbeton (C20/25 SCC) i eksponeringsklasserne X0 og XC1",
+  "name": "Affald, byggeaffald, deponering (ikke glas)",
   "nhwd": null,
   "nrsf": null,
   "odp": null,
@@ -54,9 +55,12 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/b7cacb37-7945-4518-be5a-bf7df7edf5c2?version=20.19.120"
+  },
   "standard": "EN15804A1",
-  "subtype": "Industry",
+  "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",
   "version": "version 2 - 201222"
 }

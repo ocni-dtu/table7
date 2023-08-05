@@ -2,7 +2,7 @@
   "adpe": null,
   "adpf": null,
   "ap": null,
-  "comment": "#G0500",
+  "comment": "#G0122",
   "conversions": [
     {
       "to": "KG",
@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": null,
@@ -31,14 +31,15 @@
     "c2": null,
     "c3": null,
     "c4": 0.00068207,
-    "d": -8.26778
+    "d": -1.81062
   },
   "hwd": null,
-  "id": "51e09830-00aa-4bf3-9729-e56029eef1de",
+  "id": "08fc941b-03b1-4c7c-b8d8-3918e16a8ed8",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
-  "name": "Aluminium, plade og profil, Genanvendelse",
+  "name": "Stål, varmvalset plade, Genanvendelse",
   "nhwd": null,
   "nrsf": null,
   "odp": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/f34a799a-52de-4f69-a623-335f5be207d9?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

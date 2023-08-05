@@ -2,22 +2,22 @@
   "adpe": null,
   "adpf": null,
   "ap": null,
-  "comment": "#B1469",
+  "comment": "#G0789",
   "conversions": [
     {
       "to": "KG",
-      "value": 2229.0
+      "value": 1.0
     }
   ],
   "cru": null,
-  "declared_unit": "M3",
+  "declared_unit": "KG",
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
-    "a1a3": 426.0,
+    "a1a3": null,
     "a4": null,
     "a5": null,
     "b1": null,
@@ -29,16 +29,17 @@
     "b7": null,
     "c1": null,
     "c2": null,
-    "c3": 6.75,
-    "c4": 4.99,
-    "d": -4.62
+    "c3": 0.002663,
+    "c4": null,
+    "d": null
   },
   "hwd": null,
-  "id": "6743bcff-60b4-46cd-9e52-0158de1ac055",
+  "id": "9e062efc-cdf5-45bf-ad7a-c1a6b685c9bd",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
-  "name": "Fabriksbeton C45/55",
+  "name": "Oparbejdning af byggeaffald",
   "nhwd": null,
   "nrsf": null,
   "odp": null,
@@ -54,9 +55,12 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/4a937f66-c9c2-402b-9a00-83767031bfa7?version=20.19.120"
+  },
   "standard": "EN15804A1",
-  "subtype": "Industry",
+  "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",
   "version": "version 2 - 201222"
 }

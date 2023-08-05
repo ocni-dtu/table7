@@ -2,22 +2,22 @@
   "adpe": null,
   "adpf": null,
   "ap": null,
-  "comment": "#G0912",
+  "comment": "#G1009",
   "conversions": [
     {
       "to": "KG",
-      "value": 1.0
+      "value": 335.0
     }
   ],
   "cru": null,
-  "declared_unit": "KG",
+  "declared_unit": "PCS",
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
-    "a1a3": null,
+    "a1a3": 1168.47,
     "a4": null,
     "a5": null,
     "b1": null,
@@ -29,16 +29,17 @@
     "b7": null,
     "c1": null,
     "c2": null,
-    "c3": null,
-    "c4": 0.0136414,
-    "d": null
+    "c3": 1.31871,
+    "c4": 1.80285,
+    "d": -409.511
   },
   "hwd": null,
-  "id": "a73ac108-57c3-4d82-b1ff-e440b874a407",
+  "id": "e6056bf4-8686-4da2-9dca-0a8e3a4c90b4",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
-  "name": "Affald, inert, deponering (glas)",
+  "name": "Pellet-kedel, <20 kW",
   "nhwd": null,
   "nrsf": null,
   "odp": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/0e03a1c1-0aa9-4e94-bbc5-653d967b0d8d?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

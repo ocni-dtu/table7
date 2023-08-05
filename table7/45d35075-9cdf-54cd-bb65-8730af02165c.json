@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 2762.64,
@@ -37,6 +37,7 @@
   "id": "45d35075-9cdf-54cd-bb65-8730af02165c",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "LPG tank 4850 l / 2,1t (overjordiske)",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/2c6e929d-026a-4547-b872-1213fba3a690?version=20.19.120"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",

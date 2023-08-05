@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": -680.0,
@@ -37,6 +37,7 @@
   "id": "88e8f961-0a50-410b-a247-467ab6fb663d",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "Konstruktionstræ af fyr og gran, Savede og tørrede (Forbrænding EoL)",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "https://www.epddanmark.dk/media/vf0jy3ur/md-20002-en-tr%C3%A6-dk-c-o-tr%C3%A6-og-m%C3%B8belindustrien.pdf"
+  },
   "standard": "EN15804A1",
   "subtype": "Industry",
   "valid_until": "2025-12-22T00:00:00",

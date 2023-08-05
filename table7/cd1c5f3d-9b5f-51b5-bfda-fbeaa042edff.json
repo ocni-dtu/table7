@@ -14,7 +14,7 @@
   "eee": null,
   "eet": null,
   "ep": null,
-  "format_version": "0.2.8",
+  "format_version": "0.3.0",
   "fw": null,
   "gwp": {
     "a1a3": 0.253,
@@ -37,6 +37,7 @@
   "id": "cd1c5f3d-9b5f-51b5-bfda-fbeaa042edff",
   "location": "DK",
   "mer": null,
+  "meta_data": null,
   "mrf": null,
   "name": "WPC terrassebelægning",
   "nhwd": null,
@@ -54,7 +55,10 @@
   "rsf": null,
   "rwd": null,
   "sm": null,
-  "source": "BR18 - Tabel 7",
+  "source": {
+    "name": "BR18 - Tabel 7",
+    "url": "http://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/0452f1bc-9766-4785-bf4e-44bc76dedf75?version=00.03.000"
+  },
   "standard": "EN15804A1",
   "subtype": "Generic",
   "valid_until": "2025-12-22T00:00:00",
