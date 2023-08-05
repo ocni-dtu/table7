@@ -5,7 +5,7 @@ import uuid
 from datetime import datetime
 from pathlib import Path
 import importlib.metadata
-from epdx.pydantic import EPD, Standard, SubType, Unit
+from epdx.pydantic import EPD, Standard, SubType, Unit, Source
 
 
 class EPDx(EPD):
@@ -26,7 +26,7 @@ class EPDx(EPD):
             declared_unit=cls.convert_unit(declared_unit),
             valid_until=datetime(year=2025, month=12, day=22),
             published_date=datetime(year=2020, month=12, day=22),
-            source="BR18 - Tabel 7",
+            source=Source(name="BR18 - Tabel 7", url=table7_object.get("Url (link)")),
             standard=Standard.EN15804A1,
             subtype=cls.convert_subtype(table7_object.get("Data type")),
             comment=table7_id,
@@ -56,7 +56,6 @@ class EPDx(EPD):
                 "c4": cls.convert_gwp(table7_object.get("Global Opvarmning, modul C4"), declared_factor),
                 "d": cls.convert_gwp(table7_object.get("Global Opvarmning, modul D"), declared_factor),
             },
-            meta_fields={"data_source": table7_object.get("Url (link)")},
         )
         return epd
 
